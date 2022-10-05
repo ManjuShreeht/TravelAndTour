@@ -5,12 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+   
 
     <!-- font awesome -->
     <script src="https://kit.fontawesome.com/76746a0aa0.js" crossorigin="anonymous"></script>
 
-    <link rel="stylesheet" href="styel.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <section class="header">
@@ -25,53 +25,17 @@
 <div id="menu-btn" class="fas fa-bars"></div>
   </section> 
 
-<!-- home section-->
-
-<section class="home">
-
-
-
-<div id="carouselExampleCaptions" class="carousel slide me" data-bs-ride="carousel">
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-  </div>
-  <div class="carousel-inner">
-    <div class="carousel-item active ">
-      <img src="images/home-slide-1.jpg" class="d-block w-100 " alt="...">
-      <div class="carousel-caption d-none d-md-block text-change">
-        <h1>explore,discover,travel</h1>
-        <p>travel around the world</p>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <img src="images/home-slide-2.jpg" class="d-block w-100" alt="...">
-      <div class="carousel-caption d-none d-md-block text-change ">
-        <h1>explore,discover,travel</h1>
-        <p>discover new place.</p>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <img src="images/home-slide-3.jpg" class="d-block w-100" alt="...">
-      <div class="carousel-caption d-none d-md-block text-change">
-        <h1>explore,discover,travel</h1>
-        <p>make your tour worth</p>
-      </div>
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
+  <!-- home -->
+  <section class="home" id="hom" onmouseover="change()">
+   <h4>Tour,Discover,travel</h4>
+   <h1>travel around the world</h1>
+   <a href="" id="disc">Discover More</a>
+  </section>
 
 
-</section>
+
+
+
 
 
 
@@ -110,12 +74,76 @@
 </section>
 
 
+<!--about section -->
+<section class="home-about">
+  <h1 class="heading-title">About Us</h1>
+  <div class="row">
+  <div class="col">
+    <img src="images/about-img.jpg" alt="">
+  </div>
+  <div class="col content">
+    <h1>about us</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam nobis nam aliquam id obcaecati corporis ex consequatur dolor repudiandae! Vitae ex, ratione adipisci provident hic veniam doloribus temporibus. Minima,
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam nobis nam aliquam id obcaecati corporis ex consequatur dolor repudiandae! Vitae ex, ratione adipisci provident hic veniam doloribus temporibus. Minima,
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam nobis nam aliquam id obcaecati corporis ex consequatur dolor repudiandae! Vitae ex, ratione adipisci provident hic veniam doloribus temporibus. Minima,
+     </p>
+    <a href="about.php" class="btn">read more</a>
+  </div>
+  </div>
+</section>
 
 
+<!-- package section -->
+<section class="package">
+  <h1 class="heading-title">Our Packages</h1>
+  <div class="box-container">
+    <div class="box">
+     
+        <img src="images/img-1.jpg" alt="">
+      
+        <h1>Adventure & Tour</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod dicta ducimus accusantium quibusdam qui obcaecati, id aliquam inventore soluta optio quia libero tenetur nisi, culpa quam, distinctio quo nostrum minima!</p>
+        <a href="book.php" class="btn">book now</a>
+    &nbsp;
+    &nbsp; 
+    </div>
+    <div class="box">
+      
+        <img src="images/img-2.jpg" alt="">
+     
+     
+        <h1>Adventure & Tour</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod dicta ducimus accusantium quibusdam qui obcaecati, id aliquam inventore soluta optio quia libero tenetur nisi, culpa quam, distinctio quo nostrum minima!</p>
+        <a href="book.php" class="btn">book now</a>
+    &nbsp;
+    &nbsp; 
+    </div>
+    <div class="box">
+      
+        <img src="images/img-3.jpg" alt="">
+     
+     
+        <h1>Adeventure & Tour</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod dicta ducimus accusantium quibusdam qui obcaecati, id aliquam inventore soluta optio quia libero tenetur nisi, culpa quam, distinctio quo nostrum minima!</p>
+        <a href="book.php" class="btn">book now</a>
+        &nbsp;
+        &nbsp;
+     
+    </div>
+   
+  </div>
+  <div class="load-more "><a href="package.php" > load more</a></div>
+</section>
 
+<!--offer section -->
+<section class="offer">
 
-
-
+<div class="content">
+  <h3>upto 50% off</h3>
+  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid enim vel quo, eum beatae fuga. Minus exercitationem, sequi iste asperiores voluptatum, iure quibusdam deserunt eaque inventore earum in commodi unde.</p>
+  <div class="load-more"><a href="book.php" >book now</a></div>
+</div>
+</section>
 
 
 
@@ -186,12 +214,12 @@
 </div>
 
 <div class="credit">
-    created by web developer manu
+    <h4>created by web developer manu</h4>
 </div>
 
   </section>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
 <script src="script.js">
 
 </script>

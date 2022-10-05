@@ -10,10 +10,25 @@
     <!-- font awesome -->
     <script src="https://kit.fontawesome.com/76746a0aa0.js" crossorigin="anonymous"></script>
 
-    <link rel="stylesheet" href="styel.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @media (max-width:786px){ .review-slider {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 20px;
+            }
+            .review-slider .slide{
+                flex-basis: 40%;
+            }
+            .review-slider .slide img {
+                margin-left: 50px;
+            }
+        }
+    </style>
 </head>
 <body>
-  <section class="header">
+  <section class="header"
+  >
 <a href="home.php" class="logo">travel.</a>
 
 <nav class="navbar">
@@ -31,10 +46,74 @@
 
 </div>
 
+<section class="aboutus">
+    <div class="image">
+    <img src="images/about-img.jpg" alt=""></div>
+    <div class="content">
+        <h3>why choose us?</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium minus corrupti et ipsa tenetur eum non quisquam ullam necessitatibus quibusdam.</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam consequatur fuga corrupti repudiandae tempora totam nihil culpa praesentium ullam, blanditiis quasi saepe voluptate iusto repellendus. Optio vel expedita eum aliquid!</p>
+        <div class="icons-container">
+            <div class="icons">
+                <i class="fas fa-map"></i>
+                    <span>top destination</span>
+                
+            </div>
+            <div class="icons">
+                <i class="fas fa-hand-holding-usd"></i>
+                    <span>affordable price</span>
+                
+            </div>
+            <div class="icons">
+                <i class="fas fa-headset"></i>
+                    <span>24/7 guid service</span>
+                
+            </div>
+        </div>
+
+    </div>
+</section>
 
 
-
-
+<!-- reviews -->
+<section class="review">
+    <h1 class="heading-title">Our Client Opinion</h1>
+    <div class="review-slider">
+        
+            <div class="slide">
+    <img src="images/pic-1.png" alt="">
+    <h1>Arayan</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, quisquam.</p>
+        <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+            </div>
+        
+            <div class="slide">
+    <img src="images/pic-2.png" alt="">
+    <h1>karna</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, quisquam.</p>
+            </div>
+        
+            <div class="slide">
+    <img src="images/pic-3.png" alt="">
+    <h1>alison</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, quisquam.</p>
+            </div>
+            <div class="slide">
+    <img src="images/pic-4.png" alt="">
+    <h1>alison</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, quisquam.</p>
+            </div>
+            <div class="slide">
+    <img src="images/pic-5.png" alt="">
+    <h1>alison</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, quisquam.</p>
+            </div>
+        
+    </div>
+</section>
 
 
 
